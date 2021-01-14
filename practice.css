@@ -1,0 +1,822 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+body {
+    font-size: 15px;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+    
+
+ul {
+    list-style: none;
+}
+
+
+
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+
+}
+
+#home {
+    background-image: url(images/top1.jpg);
+    min-height: 100vh;
+}
+
+
+.top-logo {
+    text-align: center;
+}
+
+.top-logo img {
+    margin-top: 165px;
+    width: 350px;
+    height: 200px;
+
+}
+
+.top-logo h1 {
+
+}
+
+.top-logo p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    letter-spacing: 3px;
+
+}
+
+
+.top-btn {
+    text-align: center;
+}
+
+.btn-app,.btn-gglp {
+    width: 163px;
+    height: 50px;
+    margin-top: 247px;
+}
+
+.btn-app {
+    padding-right: 16px;
+}
+
+.top-btn p {
+    font-size: 15px;
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    padding-top: 20px;
+
+}
+
+
+.main-wrapper {
+    height: 580px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.main-foto img {
+    width: 33.333%;
+    height: 100%;
+    
+}
+
+
+.descriptions {
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 850px;
+    left:0px;
+   
+}
+
+.description1,.description2,.description3 {
+   width: 60%;
+   padding-left: 80px;
+   padding-right: 35px;
+   padding-top: 50px;
+   margin: 0 auto;
+}
+
+
+
+
+
+.descriptions h2, p {
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+
+}
+
+.descriptions h2 {
+    line-height: 40px;
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+
+.descriptions p {
+
+    width: 85%;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+
+.mid-wrapper {
+    height: 578px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.box1 {
+    height: 578px;
+    width: 50%;
+    background-color: #f5f5f5;
+    text-align: center;
+
+}
+
+
+
+.box1 img {
+    width: 204px;
+    height: 204px;
+    padding-bottom: 28px;
+
+}
+
+
+.box1 h2 {
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 28px;
+
+
+}
+
+.box1 p {
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+
+
+}
+
+
+.box2 {
+    height: 578px;
+    width: 50%;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+
+.box2 img {
+    width: 176px;
+    height: 157px;
+
+}
+
+
+.box2 h2 {
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 20px;
+
+
+}
+
+
+
+
+.concept {
+    background-image: url(images/背景.jpg);
+    min-height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center top;
+}
+
+
+.concept img {
+    height: 728px;
+    width: 100%;
+  
+
+  }
+
+.container {
+    padding-top: 30px;
+}
+
+.service {
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    text-shadow: rgba(0,0,0,0.6) 2px 2px 7px;
+}
+
+.service h2 {
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 100px;
+
+}
+
+.service h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    
+}
+
+.service p {
+    font-size: 16px;
+    text-align: left;
+    color: #fff;
+    
+
+    
+}
+
+.container {
+    width: 26%;
+    position: absolute;
+    top: 100px;
+    right: 180px
+
+}
+
+
+.concept-sub {
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background-color: #E8E3DF;
+
+
+}
+
+.concept-sub img {
+    height: 50%;
+    width: 40%;
+    padding-top: 150px;
+    padding-left: 120px;
+}
+
+
+.container2 {
+    width: 26%;
+    position: absolute;
+    top: 140px;
+    right: 180px;
+
+}
+
+.vase {
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.vase h2 {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 60px;
+
+}
+
+.vase p {
+    font-size: 16px;
+    text-align: left;
+    color: #000;
+    
+    
+}
+
+.vase-variation {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.vase-variation img {
+    width: 96px;
+    height: 113px;
+}
+
+
+
+.bell,.moon,.candle {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.vase-variation p {
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    font-size: 14px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+   text-align: center;
+
+}
+
+.service2 {
+    width: 100%;
+    height: 520px;
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container3 {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+
+
+}
+
+.container3 h2 {
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+
+
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+
+    }
+
+.item1,.item2,.item3 {
+    height: 160px;
+    width: 240px;
+
+}
+
+
+.items h3 {
+    padding-bottom: 18px;
+
+}
+
+.items img {
+    height: 45px;
+    width: 48px;
+    padding-bottom: 27px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.last {
+    width: 100%;
+    height: 420px;
+    background-color: #EFDFC5;
+}
+
+
+
+.footer-nav {
+    width: 100%;
+    height: 382px;
+    background-color: #3F434A;
+
+}
+
+.container4 {
+    width: 70%;
+    height: 40px;
+    padding-top: 70px;
+
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nav li a {
+    font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 67px;
+
+}
+
+
+
+
+
+
+
+
+/* スマホ用レスポンシブ  */
+@media(max-width: 640px) {
+
+#home {
+    position: relative;
+}
+    
+.big-bg {
+    max-width: 100%;
+    height: 698px;
+}
+
+
+.top-btn p {
+    display: none;
+}
+
+
+
+
+.btn-container a {
+    position: relative;
+    z-index: 10;
+   
+}
+
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 1610px;
+    max-width: 100%;
+}
+
+
+.main-foto img {
+    width: 100%;
+    height: 540px;
+    vertical-align: bottom;
+    
+}
+
+.descriptions {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.description1,.description2,.description3 {
+    height: 100%;
+    width: 70%;
+    padding-top:50px;
+    margin-bottom: 280px;
+
+}
+
+
+
+
+
+.mid-wrapper {
+    height: 1055px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box1 {
+    height: 630px;
+    width: 100%;
+    background-color: #f5f5f5;
+
+}
+
+
+.box2 {
+    height: 578px;
+    width: 50%;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+
+.box2 img {
+    width: 176px;
+    height: 157px;
+
+}
+
+
+.box2 {
+    height: 420px;
+    width: 100%;
+
+}
+
+.box2 h2 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.concept {
+    position: relative;
+
+}
+
+
+
+.container {
+    width: 70%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right:0;
+    margin: 0 auto;
+    
+}
+
+
+.service h2 {
+    padding-bottom: 150px;
+}
+
+
+.concept-sub {
+    width: 100%;
+    height: 680px;
+    position: relative;
+    background-color: #E8E3DF;
+    padding-top: 150px;
+}
+
+
+
+
+.vase h2 {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 400px;
+
+}
+
+
+.concept-sub img {
+    height: 250px;
+    width: 380px;
+    padding-top: 60px;
+    padding-left: 60px;
+
+}
+
+
+
+
+.container2 {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right:0;
+    margin: 0 auto;
+     
+
+}
+
+.vase-variation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.vase-variation img {
+    width: 96px;
+    height: 117px;
+}
+
+
+
+.service2 {
+    width: 100%;
+    height: 697px;
+}
+
+.service2 h2 {
+    color: #fff;
+    
+}
+
+.items {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item1,.item2,.item3 {
+    width: 40%;
+
+}
+
+.item3 {
+    margin: 0 auto;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav {
+    height: 482px;
+
+}
+
+.container4 {
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+.nav li  {
+    padding-top: 15px;
+
+}
+    
+}
+
+
+
+
+
+
+
+
